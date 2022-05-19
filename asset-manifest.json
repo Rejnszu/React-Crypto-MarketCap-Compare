@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/React-Crypto-MarketCap-Compare/static/css/main.b80cecd8.chunk.css",
+    "main.js": "/React-Crypto-MarketCap-Compare/static/js/main.6e47ec84.chunk.js",
+    "main.js.map": "/React-Crypto-MarketCap-Compare/static/js/main.6e47ec84.chunk.js.map",
+    "runtime-main.js": "/React-Crypto-MarketCap-Compare/static/js/runtime-main.d0e5a1cd.js",
+    "runtime-main.js.map": "/React-Crypto-MarketCap-Compare/static/js/runtime-main.d0e5a1cd.js.map",
+    "static/js/2.a84b56af.chunk.js": "/React-Crypto-MarketCap-Compare/static/js/2.a84b56af.chunk.js",
+    "static/js/2.a84b56af.chunk.js.map": "/React-Crypto-MarketCap-Compare/static/js/2.a84b56af.chunk.js.map",
+    "index.html": "/React-Crypto-MarketCap-Compare/index.html",
+    "static/css/main.b80cecd8.chunk.css.map": "/React-Crypto-MarketCap-Compare/static/css/main.b80cecd8.chunk.css.map",
+    "static/js/2.a84b56af.chunk.js.LICENSE.txt": "/React-Crypto-MarketCap-Compare/static/js/2.a84b56af.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0e5a1cd.js",
+    "static/js/2.a84b56af.chunk.js",
+    "static/css/main.b80cecd8.chunk.css",
+    "static/js/main.6e47ec84.chunk.js"
+  ]
+}
