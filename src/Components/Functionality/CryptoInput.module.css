@@ -1,0 +1,15 @@
+.information {
+  display: flex;
+  justify-content: space-between;
+}
+.information label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.information select {
+  font-weight: 700;
+  display: block;
+  margin-bottom: 1rem;
+  width: 70%;
+}

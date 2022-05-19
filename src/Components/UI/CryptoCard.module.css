@@ -1,0 +1,10 @@
+.crypto-card {
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 0 8px 13px 3px black;
+  width: 600px;
+  max-width: 100%;
+  min-height: 400px;
+  margin: 5rem auto;
+  border-radius: 10px;
+}

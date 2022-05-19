@@ -1,0 +1,7 @@
+.card__comparison {
+  margin-top: 2rem;
+}
+.card__comparison span {
+  font-weight: 700;
+  padding: 0 0.2rem;
+}
