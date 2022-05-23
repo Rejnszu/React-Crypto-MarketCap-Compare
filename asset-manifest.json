@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Crypto-MarketCap-Compare/static/css/main.b80cecd8.chunk.css",
-    "main.js": "/React-Crypto-MarketCap-Compare/static/js/main.6e47ec84.chunk.js",
-    "main.js.map": "/React-Crypto-MarketCap-Compare/static/js/main.6e47ec84.chunk.js.map",
+    "main.css": "/React-Crypto-MarketCap-Compare/static/css/main.e9d3ac9b.chunk.css",
+    "main.js": "/React-Crypto-MarketCap-Compare/static/js/main.141b1945.chunk.js",
+    "main.js.map": "/React-Crypto-MarketCap-Compare/static/js/main.141b1945.chunk.js.map",
     "runtime-main.js": "/React-Crypto-MarketCap-Compare/static/js/runtime-main.d0e5a1cd.js",
     "runtime-main.js.map": "/React-Crypto-MarketCap-Compare/static/js/runtime-main.d0e5a1cd.js.map",
-    "static/js/2.a84b56af.chunk.js": "/React-Crypto-MarketCap-Compare/static/js/2.a84b56af.chunk.js",
-    "static/js/2.a84b56af.chunk.js.map": "/React-Crypto-MarketCap-Compare/static/js/2.a84b56af.chunk.js.map",
+    "static/js/2.de26808f.chunk.js": "/React-Crypto-MarketCap-Compare/static/js/2.de26808f.chunk.js",
+    "static/js/2.de26808f.chunk.js.map": "/React-Crypto-MarketCap-Compare/static/js/2.de26808f.chunk.js.map",
     "index.html": "/React-Crypto-MarketCap-Compare/index.html",
-    "static/css/main.b80cecd8.chunk.css.map": "/React-Crypto-MarketCap-Compare/static/css/main.b80cecd8.chunk.css.map",
-    "static/js/2.a84b56af.chunk.js.LICENSE.txt": "/React-Crypto-MarketCap-Compare/static/js/2.a84b56af.chunk.js.LICENSE.txt"
+    "static/css/main.e9d3ac9b.chunk.css.map": "/React-Crypto-MarketCap-Compare/static/css/main.e9d3ac9b.chunk.css.map",
+    "static/js/2.de26808f.chunk.js.LICENSE.txt": "/React-Crypto-MarketCap-Compare/static/js/2.de26808f.chunk.js.LICENSE.txt",
+    "static/media/arnx.png": "/React-Crypto-MarketCap-Compare/static/media/arnx.d391a89a.png",
+    "static/media/klown.png": "/React-Crypto-MarketCap-Compare/static/media/klown.d35bb5a4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d0e5a1cd.js",
-    "static/js/2.a84b56af.chunk.js",
-    "static/css/main.b80cecd8.chunk.css",
-    "static/js/main.6e47ec84.chunk.js"
+    "static/js/2.de26808f.chunk.js",
+    "static/css/main.e9d3ac9b.chunk.css",
+    "static/js/main.141b1945.chunk.js"
   ]
 }
