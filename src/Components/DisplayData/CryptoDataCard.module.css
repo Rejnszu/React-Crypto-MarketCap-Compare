@@ -5,6 +5,9 @@
   margin-bottom: 2rem;
 }
 .crypto__img {
+  width: 40px;
+  display: block;
+  margin: 0 auto;
 }
 .crypto__name {
 }

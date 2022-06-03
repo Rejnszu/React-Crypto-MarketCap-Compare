@@ -3,31 +3,45 @@ import styles from "./CardContent.module.css";
 import CryptoDataCard from "./CryptoDataCard";
 import CryptoInput from "../Functionality/CryptoInput";
 import CryptoComparison from "./CryptoComparison";
+import useCrypto from "../hooks/use-crypto";
 function CardContent(props) {
-  const [firstCrypto, setFirstCrypto] = useState();
-  const [secondCrypto, setSecondCrypto] = useState();
+  const {
+    data: cryptoDataFirst,
+    imgEndpoint: cryptoImgEndPointFirst,
+    getData: getCryptoDataFirst,
+    getIcon: getCryptoIconFirst,
+  } = useCrypto();
 
-  function getFirstCryptoData(value) {
-    setFirstCrypto(value);
-  }
-  function getSecondCryptoData(value) {
-    setSecondCrypto(value);
-  }
+  const {
+    data: cryptoDataSecond,
+    imgEndpoint: cryptoImgEndPointSecond,
+    getData: getCryptoDataSecond,
+    getIcon: getCryptoIconSecond,
+  } = useCrypto();
+
   return (
     <div className={styles.card}>
       <h1 className={styles["card__title"]}>Compare Crypto</h1>
       <CryptoInput
-        firstCryptoData={getFirstCryptoData}
-        secondCryptoData={getSecondCryptoData}
+        firstCryptoData={getCryptoDataFirst}
+        secondCryptoData={getCryptoDataSecond}
+        iconOne={getCryptoIconFirst}
+        iconTwo={getCryptoIconSecond}
       />
       <div className={styles["card__wrapper"]}>
-        <CryptoDataCard cryptoInformation={firstCrypto} />
-        <CryptoDataCard cryptoInformation={secondCrypto} />
+        <CryptoDataCard
+          cryptoInformation={cryptoDataFirst}
+          icon={cryptoImgEndPointFirst}
+        />
+        <CryptoDataCard
+          cryptoInformation={cryptoDataSecond}
+          icon={cryptoImgEndPointSecond}
+        />
       </div>
 
       <CryptoComparison
-        firstComparedCrypto={firstCrypto}
-        secondComparedCrypto={secondCrypto}
+        firstComparedCrypto={cryptoDataFirst}
+        secondComparedCrypto={cryptoDataSecond}
       />
     </div>
   );
