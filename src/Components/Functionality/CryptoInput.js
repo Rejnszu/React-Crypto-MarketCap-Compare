@@ -20,18 +20,13 @@ function CryptoInput(props) {
     fetchCryptoData();
   }, []);
 
-  function giveIconOne(event) {
-    props.iconOne(event.target.value.toLowerCase());
+  function giveIcon(event, func) {
+    func(event.target.value.toLowerCase());
   }
-  function giveIconTwo(event) {
-    props.iconTwo(event.target.value.toLowerCase());
+  function addCrypto(event, func) {
+    func(cryptoList?.data[event.target.selectedIndex]);
   }
-  function addFirstCrypto(e) {
-    props.firstCryptoData(cryptoList?.data[e.target.selectedIndex]);
-  }
-  function addSecondCrypto(e) {
-    props.secondCryptoData(cryptoList?.data[e.target.selectedIndex]);
-  }
+
   return (
     <div className={styles.information}>
       <div>
@@ -39,8 +34,8 @@ function CryptoInput(props) {
         <select
           id="firstCrypto"
           onChange={(e) => {
-            addFirstCrypto(e);
-            giveIconOne(e);
+            addCrypto(e, props.firstCryptoData);
+            giveIcon(e, props.iconOne);
           }}
         >
           {cryptoList?.data.map((data) => {
@@ -53,8 +48,8 @@ function CryptoInput(props) {
         <select
           id="secondCrypto"
           onChange={(e) => {
-            addSecondCrypto(e);
-            giveIconTwo(e);
+            addCrypto(e, props.secondCryptoData);
+            giveIcon(e, props.iconTwo);
           }}
         >
           {cryptoList?.data.map((data) => {

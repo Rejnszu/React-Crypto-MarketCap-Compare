@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import styles from "./CardContent.module.css";
 import CryptoDataCard from "./CryptoDataCard";
 import CryptoInput from "../Functionality/CryptoInput";
