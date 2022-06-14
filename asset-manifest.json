@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/React-Crypto-MarketCap-Compare/static/css/main.9851625b.chunk.css",
-    "main.js": "/React-Crypto-MarketCap-Compare/static/js/main.8a6c046d.chunk.js",
-    "main.js.map": "/React-Crypto-MarketCap-Compare/static/js/main.8a6c046d.chunk.js.map",
+    "main.js": "/React-Crypto-MarketCap-Compare/static/js/main.4e967c04.chunk.js",
+    "main.js.map": "/React-Crypto-MarketCap-Compare/static/js/main.4e967c04.chunk.js.map",
     "runtime-main.js": "/React-Crypto-MarketCap-Compare/static/js/runtime-main.d0e5a1cd.js",
     "runtime-main.js.map": "/React-Crypto-MarketCap-Compare/static/js/runtime-main.d0e5a1cd.js.map",
-    "static/js/2.253ae3fc.chunk.js": "/React-Crypto-MarketCap-Compare/static/js/2.253ae3fc.chunk.js",
-    "static/js/2.253ae3fc.chunk.js.map": "/React-Crypto-MarketCap-Compare/static/js/2.253ae3fc.chunk.js.map",
+    "static/js/2.e7308724.chunk.js": "/React-Crypto-MarketCap-Compare/static/js/2.e7308724.chunk.js",
+    "static/js/2.e7308724.chunk.js.map": "/React-Crypto-MarketCap-Compare/static/js/2.e7308724.chunk.js.map",
     "index.html": "/React-Crypto-MarketCap-Compare/index.html",
     "static/css/main.9851625b.chunk.css.map": "/React-Crypto-MarketCap-Compare/static/css/main.9851625b.chunk.css.map",
-    "static/js/2.253ae3fc.chunk.js.LICENSE.txt": "/React-Crypto-MarketCap-Compare/static/js/2.253ae3fc.chunk.js.LICENSE.txt",
+    "static/js/2.e7308724.chunk.js.LICENSE.txt": "/React-Crypto-MarketCap-Compare/static/js/2.e7308724.chunk.js.LICENSE.txt",
     "static/media/arnx.png": "/React-Crypto-MarketCap-Compare/static/media/arnx.d391a89a.png",
     "static/media/klown.png": "/React-Crypto-MarketCap-Compare/static/media/klown.d35bb5a4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d0e5a1cd.js",
-    "static/js/2.253ae3fc.chunk.js",
+    "static/js/2.e7308724.chunk.js",
     "static/css/main.9851625b.chunk.css",
-    "static/js/main.8a6c046d.chunk.js"
+    "static/js/main.4e967c04.chunk.js"
   ]
 }
